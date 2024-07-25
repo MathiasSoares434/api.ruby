@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'json'
+set :bind, '0.0.0.0'
+set :port, 4567
 
 # Carrega os dados dos arquivos JSON
 PRODUCTS = JSON.parse(File.read('data/products.json'))
@@ -26,5 +28,3 @@ get '/info' do
   INFO.to_json
 end
 
-# Inicia o servidor na porta 4567 por padrão
-set :port, 4567
