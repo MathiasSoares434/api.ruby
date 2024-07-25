@@ -1,6 +1,5 @@
 [
-    { "name": "Product 1", "photo": "photo1.jpg", "price": 100.0, "is_promotion": true },
-    { "name": "Product 2", "photo": "photo2.jpg", "price": 200.0, "is_promotion": false },
-    { "name": "Product 3", "photo": "photo3.jpg", "price": 150.0, "is_promotion": true }
+    { "name": "Product 1", "photo": "https://m.media-amazon.com/images/I/51MGdcdAy+L._AC_SY300_SX300_.jpg", "price": 100.0, "is_promotion": true },
+    { "name": "Product 2", "photo": "https://m.media-amazon.com/images/I/71gdJjKvw0L.__AC_SX300_SY300_QL70_ML2_.jpg", "price": 200.0, "is_promotion": false },
+    { "name": "Product 3", "photo": "https://m.media-amazon.com/images/I/81pkjvvZcjL.__AC_SX300_SY300_QL70_ML2_.jpg", "price": 150.0, "is_promotion": true }
   ]
-  
